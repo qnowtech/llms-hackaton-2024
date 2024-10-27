@@ -1,10 +1,12 @@
 # llms-hackaton-2024
 
 In this repo you will be able to simulate with a Crew of AI agents of a customer support agency, with the goal to solve custumers issues, in this case we are using this Crew of agents working in a Sequential flow:
-    1 -  user: simulated user from GuruWalk app
-    2 - customer_support_agent: specialized customer support agent
-    3 - kg_engineer: Agent for execute Graph Machine Learning algorithms and create Cypher queries for obtain the best Agent for the issue, find find communities with similar cases.  
-    4 - ml_engineer: Agent for instance new agents or Crew to be able to solve the issues based in the output of kg_engineer
+
+- **user**: Simulated user from GuruWalk app  
+- **customer_support_agent**: Specialized customer support agent  
+- **kg_engineer**: Agent to execute Graph Machine Learning algorithms and create Cypher queries to find the best agent for the issue or discover communities with similar cases  
+- **ml_engineer**: Agent to instantiate new agents or Crew to solve issues based on the output of the kg_engineer  
+
 
 We want to demostrate that if you use Knowledge Graphs with Multiagentic solutions be powered to get results baesed on rules transformed in knowledge.
 
