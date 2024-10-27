@@ -8,6 +8,7 @@ In this repo you will be able to simulate with a Crew of AI agents of a customer
 
 We want to demostrate that if you use Knowledge Graphs with Multiagentic solutions be powered to get results baesed on rules transformed in knowledge.
 
+![Flow](./assets/flow.png)
 
 ## Table of Contents
 - [Knowledge Graph Recommender System](#KnowledgeGraphRecommenderSystem)
@@ -22,6 +23,10 @@ We want to demostrate that if you use Knowledge Graphs with Multiagentic solutio
 
 ## Overview
 The **Knowledge Graph Recommender System** is a Python class designed to facilitate interaction with a Neo4j graph database. It provides methods for creating nodes, calculating centrality measures, and analyzing similarities and communities among nodes. Thi is particularly useful for applications that require graph-based data modeling and analysis.
+
+### Schema
+
+![Schema](./assets/schema.png)
 
 ## Requirements
 - install Neo4j Desktop or self host Server that alows [GDS](https://neo4j.com/docs/graph-data-science/current/algorithms/)
@@ -41,18 +46,18 @@ To use the Knowledge Graph Recommender System, ensure you have Python installed 
 - Install the Neo4j driver:
 
 ```bash
-pip install -r requirements.txt --no-deps
+pip install -r requirements.txt
 ```
 
-# Custumer Support Crewai Simulation
+### Custumer Support Crewai Simulation
 Run the Crew simulation from Notebook in folder 'crew' or from Streamlit App
 
-# Results
+## Results
  
-## Degree Centrality
+#### Degree Centrality
 
 ![Centrality](./assets/DegreeCentrality.png)
 
-### Detail of the best Agents recommendation
+#### Detail of the best Agents recommendation
 
 ![Detail Centrality](./assets/DetailDegree.png)
