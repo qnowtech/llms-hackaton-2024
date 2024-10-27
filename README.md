@@ -80,7 +80,9 @@ Run the Crew simulation from Notebook in folder 'crew' or from Streamlit App
 
 
 ### Team
+
 **Alejandro Giraldo**
+
 [![Alejandro Giraldo](https://media.licdn.com/dms/image/v2/C5603AQF_VCpp6yXD-w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1614615633542?e=1735776000&v=beta&t=PUF6Fz3__WqlFeZmq8IA31nf5OANqxO5r3RC8zrEXa8)](https://www.linkedin.com/in/alejandrosin/)
 
 
